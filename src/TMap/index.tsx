@@ -15,7 +15,7 @@ const resolveArr: ((value: unknown) => void)[] = [];
  * @param key 地图 key
  * @param libraries 地图附加库
  */
-const loadScript = async (key: string, libraries?: string) => new Promise((resolve) => {
+export const loadScript = async (key: string, libraries?: string) => new Promise((resolve) => {
   if (window.TMap) {
     resolve(true);
     return;

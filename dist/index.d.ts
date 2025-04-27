@@ -1,5 +1,5 @@
 export { MapContext, useEventListener } from './utils';
-export { default as TMap } from './TMap';
+export { default as TMap, loadScript } from './TMap';
 export { default as BaseMap } from './TMap';
 export { default as Arc } from './Arc';
 export { default as Area } from './Area';

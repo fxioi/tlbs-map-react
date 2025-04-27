@@ -3,6 +3,12 @@
  */
 import React from 'react';
 import { ControlProps, CustomMapOptions } from "../interfaces";
+/**
+ * 异步加载地图资源
+ * @param key 地图 key
+ * @param libraries 地图附加库
+ */
+export declare const loadScript: (key: string, libraries?: string) => Promise<unknown>;
 interface TMapProps {
     /**
      * 地图 key

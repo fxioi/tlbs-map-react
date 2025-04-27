@@ -1,7 +1,7 @@
 // 导出相关工具函数和 hooks
 export { MapContext, useEventListener } from './utils';
 // 暴露组件
-export { default as TMap } from './TMap';
+export { default as TMap, loadScript } from './TMap';
 export { default as BaseMap } from './TMap';
 export { default as Arc } from './Arc';
 export { default as Area } from './Area';
